@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "executors": {
+    "build-app": {
+      "implementation": "./src/executors/build-app/executor",
+      "schema": "./src/executors/build-app/schema.json",
+      "description": "app build executor"
+    },
+    "dev-server": {
+      "implementation": "./src/executors/dev-server/executor",
+      "schema": "./src/executors/dev-server/schema.json",
+      "description": "dev server executor"
+    },
+    "build-docs": {
+      "implementation": "./src/executors/build-docs/executor",
+      "schema": "./src/executors/build-docs/schema.json",
+      "description": "docs build executor"
+    },
+    "docs-dev-server": {
+      "implementation": "./src/executors/docs-dev-server/executor",
+      "schema": "./src/executors/docs-dev-server/schema.json",
+      "description": "docs dev server executor"
+    },
+    "cypress": {
+      "implementation": "./src/executors/cypress/executor",
+      "schema": "./src/executors/cypress/schema.json",
+      "description": "cypress executor"
+    }
+  }
+}

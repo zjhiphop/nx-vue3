@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "cli": "nx",
+  "title": "Dev Server",
+  "description": "Serve the app for development",
+  "type": "object",
+  "properties": {
+    "host": {
+      "type": "string",
+      "description": "Dev server hostname",
+      "default": "localhost"
+    },
+    "port": {
+      "type": "number",
+      "description": "Dev server port",
+      "default": 3000
+    },
+    "https": {
+      "type": "boolean",
+      "description": "HTTS/SSL mode",
+      "default": false
+    },
+    "mode": {
+      "type": "string",
+      "description": "Default environment mode",
+      "default": "development"
+    }
+  },
+  "required": []
+}

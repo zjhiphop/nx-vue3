@@ -1,0 +1,24 @@
+{
+  "name": "nx-vue3",
+  "version": "0.0.2",
+  "main": "src/index.js",
+  "generators": "./generators.json",
+  "executors": "./executors.json",
+  "peerDependencies": {
+    "vite": "^2.8.4",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@nrwl/devkit": "^13.8.3",
+    "cypress": "^9.5.0",
+    "@cypress/vite-dev-server": "^2.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjhiphop/nx-vue3.git"
+  },
+  "keywords": [
+    "nx",
+    "vue3",
+    "vite",
+    "generator"
+  ]
+}
